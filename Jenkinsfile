@@ -34,6 +34,7 @@ pipeline {
                     sh "./build.sh ${params.BRANCH} ${params.ENV}"
                 }
             }
+<<<<<<< HEAD
             stage('path'){
                 steps{
                     echo "present working directory"
@@ -41,6 +42,8 @@ pipeline {
 >>>>>>> emerald
                 }
             }
+=======
+>>>>>>> parent of 2c624c5 (add changes)
         }
     }
 }
