@@ -13,6 +13,8 @@
 
 ![hema](./Images/002.png)
 
+* goto github >> settings >> devealoper-settings >> create clssic token
+
 ![hema](./Images/003.png)
 
 ```Jenkinsfile
