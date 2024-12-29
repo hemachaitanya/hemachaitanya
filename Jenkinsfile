@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Deploy to Environment') {
             steps {
-                sh 'chmod +x build.sh'
+                sh 'chmod 777 build.sh'
                 echo "Deploying to environment: ${params.ENVIRONMENT}"
                 // Example command based on selected environment
                 script {
