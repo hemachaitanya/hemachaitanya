@@ -17,6 +17,13 @@
 
 ![hema](./Images/003.png)
 
+*   any small doubt you have how to configure the plugins got to manage plugins and click on that plugin what doubt you have there clearly mentioned that 
+
+![hema](./Images/read-plugins.png)
+
+
+![hema](./Images/jenkins%20plugin.png)
+
 ```Jenkinsfile
 pipeline {
     agent any
