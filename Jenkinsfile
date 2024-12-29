@@ -22,6 +22,12 @@ pipeline {
                     sh "./build.sh ${params.BRANCH} ${params.ENV}"
                 }
             }
+            stage('path'){
+                steps{
+                    echo "present working directory"
+                    sh 'pwd'
+                }
+            }
         }
     }
 }
