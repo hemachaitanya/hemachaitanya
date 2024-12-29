@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Checking out branch: ${params.BRANCH}"
-                git branch: params.BRANCH, url: 'https://your-repo-url.git'
+                git branch: params.BRANCH, url: 'https://github.com/hemachaitanya/hemachaitanya.git'
             }
         }
         stage('Build') {
